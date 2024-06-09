@@ -1,0 +1,114 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Layer1
+{
+   background-color: #FFA500;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape1
+{
+   position: absolute;
+   left: 0px;
+   top: 363px;
+   width: 150px;
+   height: 119px;
+   z-index: 0;
+}
+#wb_Shape2
+{
+   position: absolute;
+   left: 533px;
+   top: 460px;
+   width: 124px;
+   height: 48px;
+   z-index: 1;
+}
+#Shape1
+{
+   width: 150px;
+   height: 119px;
+}
+#Shape2
+{
+   width: 124px;
+   height: 48px;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 11.0584%;
+   z-index: 2;
+}
+@media only screen and (max-width: 969px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Layer1
+{
+   visibility: visible;
+   display: block;
+}
+#Layer1
+{
+   width: 100%;
+}
+#Layer1
+{
+   padding: 0;
+}
+#wb_Shape1
+{
+   left: 0px;
+   top: 120px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Shape2
+{
+   left: 176px;
+   top: 152px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+}
